@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/terrible-tiny-tales-gaurav-lpu/static/css/main.558da0e3.css",
-    "main.js": "/terrible-tiny-tales-gaurav-lpu/static/js/main.33df23b9.js",
+    "main.js": "/terrible-tiny-tales-gaurav-lpu/static/js/main.fc96ce92.js",
     "static/js/787.063af766.chunk.js": "/terrible-tiny-tales-gaurav-lpu/static/js/787.063af766.chunk.js",
     "index.html": "/terrible-tiny-tales-gaurav-lpu/index.html",
     "main.558da0e3.css.map": "/terrible-tiny-tales-gaurav-lpu/static/css/main.558da0e3.css.map",
-    "main.33df23b9.js.map": "/terrible-tiny-tales-gaurav-lpu/static/js/main.33df23b9.js.map",
+    "main.fc96ce92.js.map": "/terrible-tiny-tales-gaurav-lpu/static/js/main.fc96ce92.js.map",
     "787.063af766.chunk.js.map": "/terrible-tiny-tales-gaurav-lpu/static/js/787.063af766.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.558da0e3.css",
-    "static/js/main.33df23b9.js"
+    "static/js/main.fc96ce92.js"
   ]
 }
