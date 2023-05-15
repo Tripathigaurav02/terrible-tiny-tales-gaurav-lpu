@@ -5,7 +5,7 @@ import './Button.css';
 
 const Button = () => {
   const navigate = useNavigate();
-  const [result, setResult] = useState('');
+  const [, setResult] = useState('');
 
   const fetchData = async (e) => {
     e.preventDefault();

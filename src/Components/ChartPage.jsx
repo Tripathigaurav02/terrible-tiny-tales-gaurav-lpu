@@ -5,17 +5,17 @@ import './ChartPage.css';
 
 const ChartPage = () => {
   const location = useLocation();
-  const [freq, setfreq] = useState({});
+  const [, setfreq] = useState({});
   const [histogramData, SetHisData] = useState([]);
 
   useEffect(() => {
     if (location.state && location.state.data) {
       wordfreq(location.state.data);
     }
-  }, [location.state]);
+  });
 
-  const wordfreq = (result) => {
-    let words = result.replace(/[^a-zA-Z\s]/g, ' ').split(/\s+/);
+  const wordfreq = (data) => {
+    let words = data.replace(/[^a-zA-Z\s]/g, ' ').split(/\s+/);
     let freq = {};
     words.forEach(function (word) {
       if (!freq[word]) {
