@@ -1,0 +1,25 @@
+.chart-container {
+    position: relative;
+  }
+  
+  .export-button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .export-button {
+    padding: 15px 35px; 
+    background-color: #3179ff;
+    border-radius: 1em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  .export-button:hover {
+    background-color: #0056b3;
+  }
+  
